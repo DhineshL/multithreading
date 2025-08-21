@@ -14,6 +14,7 @@ public class SequentialExecution {
         }
     }
     public static void main(String[] args) {
+        // single thread - main
         demo1();
         demo2();
     }
