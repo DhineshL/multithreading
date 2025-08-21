@@ -20,3 +20,10 @@
   * User threads
 * Daemon threads are intended to be helper threads which can run in backgroun and are of low priority Eg: GC thread
 * Daemon threads are terminated by JVM when all other user threads are terminated
+
+## Synchronization
+
+## ThreadPool
+
+
+## Executors
