@@ -22,7 +22,7 @@ public class Scraper {
 enum ScraperService {
     INSTANCE;
 
-    private Semaphore semaphore = new Semaphore(3);
+    private final Semaphore semaphore = new Semaphore(3);
 
     public void scrape(){
         try{
